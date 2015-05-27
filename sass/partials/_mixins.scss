@@ -1,0 +1,27 @@
+ //
+// Mixins
+//
+
+// font-size mixin
+@mixin font-size($size) {
+  font-size: $size + px;
+  font-size: ($size / 10) + rem;
+}
+
+// Botón
+@mixin button($font-size, $text-color: #fff, $border-color: #fff, $transform: none) {
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  width: 151px;
+  @include font-size($font-size);
+  padding: 0.5em 2em;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  color: $text-color;
+  text-transform: $transform;
+  font-family: $karla;
+  background: transparent;
+}

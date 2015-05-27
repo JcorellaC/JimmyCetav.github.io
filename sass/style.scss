@@ -1,0 +1,25 @@
+//
+// Estilos del portafolio
+//
+
+//
+// Parciales
+//
+
+// Parciales base
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/placeholders";
+@import "partials/base";
+@import "partials/layout";
+
+// Módulos
+@import "partials/modules/navigation";
+@import "partials/modules/header";
+@import "partials/modules/index-projects";
+@import "partials/modules/reference";
+@import "partials/modules/biography";
+@import "partials/modules/footer";
+@import "partials/modules/projects";
+@import "partials/modules/specific-project";
+@import "partials/modules/view-projects";
